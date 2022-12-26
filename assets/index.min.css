@@ -1,0 +1,21 @@
+.title {
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+.exerpt {
+    font-weight: normal;
+}
+
+.post-wrapper {
+    display: flex;
+    justify-content: space-between
+}
+
+.post-link {
+    text-transform: uppercase;
+}
+
+.post-date {
+    color: var(--suva-gray)
+}

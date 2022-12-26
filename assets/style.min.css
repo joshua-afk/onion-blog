@@ -1,0 +1,39 @@
+:root {
+    --white: #ffffff;
+    --coral: #f65252;
+    --cranberry: #d54d81;
+    --cod-gray: #101010;
+    --suva-gray: #8c8c8c;
+    --cerebral-gray: #cccccc;
+    --inventing-happiness: #f1f1f3;
+}
+
+html{-webkit-text-size-adjust:100%;padding-bottom:4em;}
+body{font-family:monospace, serif;line-height:1.3em;max-width:40em;padding:0 2%;margin:auto;background-color:var(--cod-gray);color:var(--inventing-happiness)}
+
+h1 {
+    text-transform: uppercase;
+}
+
+a {
+  text-decoration: none;
+  outline: none;
+  color: var(--while);
+}
+
+a:hover {
+    color:var(--cerebral-gray);
+    transition: 0.25s ease-in-out;
+}
+
+a:hover {
+    outline: none;
+}
+
+.link {
+    border-bottom: 1px solid var(--coral)
+}
+
+.underline {
+    text-decoration: underline;
+}
